@@ -6,7 +6,7 @@ const Contact = () => {
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full ">
         <div className="">
           <p className="font-bold text-4xl border-b-2 border-white-400 p-2 flex justify-center ">
-            CONTACT US
+            Let's Connect !
           </p>
         </div>
       </div>
@@ -68,7 +68,7 @@ const Contact = () => {
                 type="text"
                 id="name"
                 name="name"
-                class="w-full bg-gray-100 rounded border-2 border-black focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                class="w-full bg-gray-100 rounded border-2 border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
             <div class="relative mb-4">
@@ -79,7 +79,7 @@ const Contact = () => {
                 type="email"
                 id="email"
                 name="email"
-                class="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                class="w-full bg-gray-100 rounded border-2 border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
             <div class="relative mb-4">
@@ -89,15 +89,14 @@ const Contact = () => {
               <textarea
                 id="message"
                 name="message"
-                class="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                class="w-full h-32 bg-gray-100 rounded border-2 border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out resize-none"
               ></textarea>
             </div>
-            <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+            <button class="text-white bg-blue-800 border-0  py-2 px-6 rounded-lg text-lg hover:bg-blue-700 transform hover:scale-105 duration-300">
               Submit feedback
             </button>
-            <p class="text-xs text-gray-500 mt-3">
-              Chicharrones blog helvetica normcore iceland tousled brook viral
-              artisan.
+            <p class="text-sm text-gray-500 mt-3">
+              Thank you for being a part of our journey !
             </p>
           </div>
         </div>

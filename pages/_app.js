@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Contact from "@/components/Contact";
+import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Home from "@/components/Home";
@@ -21,6 +22,7 @@ export default function App({ Component, pageProps }) {
       <Skills />
       <Projects />
       <Testimonials />
+      <CTA/>
       <Contact />
       <Footer />
     </>
