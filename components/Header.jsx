@@ -1,19 +1,29 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
-    <header class="text-white body-font">
-      <div class="container mx-auto my-3 flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <header>
+      <div class="container mx-auto  my-3 flex flex-wrap p-5 flex-col md:flex-row items-center">
         <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
-          <a class="mr-5 hover:text-gray-500">HOME</a>
-          <a class="mr-5 hover:text-gray-500">ABOUT</a>
-          <a class="mr-5 hover:text-gray-500">SKILLS</a>
-          <a class="mr-5 hover:text-gray-500">PORTFOLIO</a>
-          <a class="mr-5 hover:text-gray-500">TESTIMONIALS</a>
+          <a class="mr-5 " href="/">
+            HOME
+          </a>
+          <a class="mr-5 " href="/About">
+            ABOUT
+          </a>
+          <a class="mr-5 " href="/Skills">
+            SKILLS
+          </a>
+          <a class="mr-5 " href="/Projects">
+            PORTFOLIO
+          </a>
+          <a class="mr-5 " href="/Testimonials">
+            TESTIMONIALS
+          </a>
         </nav>
-        <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-white lg:items-center lg:justify-center mb-4 md:mb-0 ">
+        <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center lg:items-center lg:justify-center mb-4 md:mb-0 ">
           <span>
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white ">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium ">
               Obaid Khan
             </h1>
             {/* <img src="ObaidKhan_Logo.png" alt="" /> */}
@@ -21,7 +31,10 @@ const Header = () => {
         </a>
         <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
           <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-            <a class="text-white ">
+            <a
+              href="https://www.facebook.com/profile.php?id=100006199188853 "
+              target="_blank"
+            >
               <svg
                 fill="currentColor"
                 stroke-linecap="round"
@@ -33,7 +46,11 @@ const Header = () => {
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
               </svg>
             </a>
-            <a class="ml-5 text-white ">
+            <a
+              href="https://twitter.com/KhansEverywhere "
+              target="_blank"
+              class="ml-5  "
+            >
               <svg
                 fill="currentColor"
                 stroke-linecap="round"
@@ -45,7 +62,11 @@ const Header = () => {
                 <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
               </svg>
             </a>
-            <a class="ml-5 text-white ">
+            <a
+              href="https://www.instagram.com/oba1d.khan/"
+              target="_blank"
+              class="ml-5  "
+            >
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -59,7 +80,11 @@ const Header = () => {
                 <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
               </svg>
             </a>
-            <a class="ml-5 text-white ">
+            <a
+              href="https://www.linkedin.com/in/oba1d-khan-4b9698214/"
+              target="_blank"
+              class="ml-5 "
+            >
               <svg
                 fill="currentColor"
                 stroke="currentColor"
