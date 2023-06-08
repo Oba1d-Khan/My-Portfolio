@@ -1,36 +1,35 @@
 import React from "react";
-import { Link } from "react-router-dom";
 const Header = () => {
   return (
-    <header>
-      <div class="container mx-auto  my-3 flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
-          <a class="mr-5 " href="/">
+    <header className="sticky top-0 z-50 bg-gray-800">
+      <div className="container mx-auto  mb-3 flex flex-wrap p-5 flex-col md:flex-row  items-center">
+        <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
+          <a className="mr-5 " href="/">
             HOME
           </a>
-          <a class="mr-5 " href="/About">
+          <a className="mr-5 " href="#About">
             ABOUT
           </a>
-          <a class="mr-5 " href="/Skills">
+          <a className="mr-5 " href="#Skills">
             SKILLS
           </a>
-          <a class="mr-5 " href="/Projects">
+          <a className="mr-5 " href="#Projects">
             PORTFOLIO
           </a>
-          <a class="mr-5 " href="/Testimonials">
+          <a className="mr-5 " href="#Testimonials">
             TESTIMONIALS
           </a>
         </nav>
-        <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center lg:items-center lg:justify-center mb-4 md:mb-0 ">
+        <a className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center lg:items-center lg:justify-center mb-4 md:mb-0 ">
           <span>
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium ">
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium ">
               Obaid Khan
             </h1>
             {/* <img src="ObaidKhan_Logo.png" alt="" /> */}
           </span>
         </a>
-        <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
-          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <div className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
+          <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
             <a
               href="https://www.facebook.com/profile.php?id=100006199188853 "
               target="_blank"
@@ -40,7 +39,7 @@ const Header = () => {
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="2"
-                class="w-5 h-5"
+                className="w-5 h-5"
                 viewBox="0 0 24 24"
               >
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
@@ -49,14 +48,14 @@ const Header = () => {
             <a
               href="https://twitter.com/KhansEverywhere "
               target="_blank"
-              class="ml-5  "
+              className="ml-5  "
             >
               <svg
                 fill="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="2"
-                class="w-5 h-5"
+                className="w-5 h-5"
                 viewBox="0 0 24 24"
               >
                 <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
@@ -65,7 +64,7 @@ const Header = () => {
             <a
               href="https://www.instagram.com/oba1d.khan/"
               target="_blank"
-              class="ml-5  "
+              className="ml-5  "
             >
               <svg
                 fill="none"
@@ -73,7 +72,7 @@ const Header = () => {
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="2"
-                class="w-5 h-5"
+                className="w-5 h-5"
                 viewBox="0 0 24 24"
               >
                 <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
@@ -83,7 +82,7 @@ const Header = () => {
             <a
               href="https://www.linkedin.com/in/oba1d-khan-4b9698214/"
               target="_blank"
-              class="ml-5 "
+              className="ml-5 "
             >
               <svg
                 fill="currentColor"
@@ -91,7 +90,7 @@ const Header = () => {
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="0"
-                class="w-5 h-5"
+                className="w-5 h-5"
                 viewBox="0 0 24 24"
               >
                 <path
