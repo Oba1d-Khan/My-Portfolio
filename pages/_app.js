@@ -7,7 +7,6 @@ import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import Testimonials from "@/components/Testimonials";
 import "@/styles/globals.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 
 

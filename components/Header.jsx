@@ -1,7 +1,7 @@
 import React from "react";
 const Header = () => {
   return (
-    <header className="sticky top-0 z-50 bg-gray-800">
+    <header className="sticky top-0 z-50 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 opacity-90 rounded-full ">
       <div className="container mx-auto  mb-3 flex flex-wrap p-5 flex-col md:flex-row  items-center">
         <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
           <a className="mr-5 " href="/">
@@ -20,14 +20,9 @@ const Header = () => {
             TESTIMONIALS
           </a>
         </nav>
-        <a className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center lg:items-center lg:justify-center mb-4 md:mb-0 ">
-          <span>
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium ">
-              Obaid Khan
-            </h1>
-            {/* <img src="ObaidKhan_Logo.png" alt="" /> */}
-          </span>
-        </a>
+        <div className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center lg:items-center lg:justify-center mb-4 md:mb-0  title-font sm:text-4xl text-3xl  ">
+          <h1>Obaid Khan</h1>
+        </div>
         <div className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
             <a
@@ -106,5 +101,4 @@ const Header = () => {
     </header>
   );
 };
-
 export default Header;

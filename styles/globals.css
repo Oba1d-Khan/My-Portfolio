@@ -1,10 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Cinzel:wght@400;500;600;700;800;900&family=Great+Vibes&family=Pacifico&family=Sacramento&display=swap");
-/* font-family: "Merriweather", serif; */
 
 * {
   padding: 0;
@@ -16,11 +15,14 @@
 body {
   color: white;
   font-weight: 400;
-  background: linear-gradient(135deg, #363636, #212f45, #422e20, #313131);
-  /* background-image: url("../public/bg-Op.svg"); */
-  /* background-repeat: repeat; */
-  /* background-size: cover; */
-  /* overflow: hidden; */
+  background: linear-gradient(
+    135deg,
+    #363636,
+    #212f45,
+    #422e20,
+    #212f45,
+    #422e20
+  );
 }
 
 header a {
@@ -41,7 +43,7 @@ nav a:after {
   width: 0%;
   content: ".";
   color: transparent;
-  background: #aaa;
+  background: #f3c524;
   height: 1px;
 }
 nav a:hover:after {

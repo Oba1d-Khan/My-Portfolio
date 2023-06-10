@@ -1,6 +1,9 @@
 import Head from "next/head";
-
 export default function Home() {
+
+
+
+
   return (
     <div>
       <Head>
@@ -9,8 +12,11 @@ export default function Home() {
       </Head>
 
       <main>
-        {/* <h1>Welcome to my Next.js App!</h1> */}
+
       </main>
+
+
+
     </div>
   );
 }
