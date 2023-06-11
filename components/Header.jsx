@@ -1,7 +1,7 @@
 import React from "react";
 const Header = () => {
   return (
-    <header className="sticky top-0 z-50 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 opacity-90 rounded-full ">
+    <header className="sticky top-0 z-50 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 opacity-90 rounded-full  ">
       <div className="container mx-auto  mb-3 flex flex-wrap p-5 flex-col md:flex-row  items-center">
         <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
           <a className="mr-5 " href="/">
